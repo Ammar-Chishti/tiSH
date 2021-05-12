@@ -7,7 +7,7 @@ This is a mini-shell written in C that supports a subset of functionalities that
     * Supports being run in interactive as well as non-interactive mode
     * Supports debug mode and time counting mode
     * Supports redirection of stdin, stdout, and stderr
-    * Supports creating and reading variables as well as correctly inherits existing environment variables
+    * Supports creating and reading variables, correctly inherits existing environment variables
     * Regression tests cover all of the functionality mentioned above
 
 ## How to compile and run tiSH
