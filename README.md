@@ -1,6 +1,6 @@
 # tiSH (Tiny Shell)
 
-This is a mini-shell written in C that supports a subset of functionalities that a bash shell would support.\
+This is a mini-shell written in C that supports a subset of functionalities that a bash shell would support.
 
     * Commands `cd, pwd, echo, and exit` are implemented from scratch
     * Supports all other bash commands present in the current machine
