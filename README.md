@@ -41,8 +41,9 @@ tiSH can be started with -t and -d in any order (ex. `./tish -d -t` or `./tish -
 
 ## Regression Tests
 Type in `make tests` to run the regression tests. Make sure you run `make` to generate the executable first however.
-* Test01.sh will test the functionality of built-in commands `cd, pwd, echo, and exit`.
-* Test02.sh will test all redirection functionality.
-* Test03.sh will test if certain variables are correctly set, for example after the execution of a command or a user defined variable or even if env variables are inherited properly
+    
+    * Test01.sh will test the functionality of built-in commands `cd, pwd, echo, and exit`.
+    * Test02.sh will test all redirection functionality.
+    * Test03.sh will test if certain variables are correctly set. Examples of this include if env variables are inherited properly, if a user defined variable was set properly, or the correct return value was set after the execution of a command
 
 Note that the test files mentioned above not only test if the return value of a command was correct but also if the output was correct as well. If you look closely, there might be a few spaces inserted into the output str we are testing equality against in the .sh files. This is because bash will sometimes replace \n characters with a space. In general, parsing the output of bash commands is just a pain to work with.
