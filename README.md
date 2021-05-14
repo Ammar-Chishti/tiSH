@@ -12,7 +12,7 @@ This is a mini-shell written in C that supports a subset of functionalities that
 
 ## How to compile and run tiSH
 * NOTE - You must have glib installed on the machine in order to run this program! [Installing gtk and glib](https://stackoverflow.com/questions/5275196/)
-* Type in `make` to compile all files and create the `tiSH` executable. You can also type in `make clean` if you want to clean the directory build and binary files
+* Run `make` to compile all files and create the `tiSH` executable. You can also run `make clean` if you want to remove the build and bin directories
 
 ## tiSH interactive mode
 * To run tiSH in interactive mode, run the tiSH executable (`./tiSH`). Here you will be prompted to type in commands and use tiSH as if it were a bash terminal
@@ -40,7 +40,7 @@ There are two ways to run tiSH in non-interactive mode
 tiSH can be started with -t and -d in any order (ex. `./tish -d -t` or `./tish -t -d`)
 
 ## Regression Tests
-Type in `make tests` to run the regression tests. Make sure you run `make` to generate the executable first however.
+Run `make tests` to run the regression tests. Make sure you run `make` to generate the executable first however.
     
     * Test01.sh will test the functionality of built-in commands `cd, pwd, echo, and exit`
     * Test02.sh will test all redirection functionality
